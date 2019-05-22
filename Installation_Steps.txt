@@ -1,0 +1,18 @@
+Prerequisite:-
+1. An ec2 instance with any image.
+
+Installation steps:-
+
+1. Run following command to install terraform zip file.
+wget https://releases.hashicorp.com/terraform/0.11.14/terraform_0.11.14_linux_amd64.zip
+
+2. Extract the zip file using below command.
+unzip terraform_0.11.14_linux_amd64.zip
+
+3. echo $"export PATH=\$PATH:$(pwd)" >> ~/.bash_profile
+
+4. source ~/.bash_profile
+
+5. run the command:- terraform
+
+From above you can succesfully install terraform in your machine.
